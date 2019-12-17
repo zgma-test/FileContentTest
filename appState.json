@@ -1,0 +1,75 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "c896ba88-a854-4239-9d9b-5dd61873fcb1": {
+        "id": "c896ba88-a854-4239-9d9b-5dd61873fcb1",
+        "parent": null,
+        "name": "FileContentTest",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "66c20dac-b9d4-4b2c-b91d-e3b7f972db34"
+        ],
+        "isRemovable": false,
+        "filePath": "FileContentTest"
+      },
+      "66c20dac-b9d4-4b2c-b91d-e3b7f972db34": {
+        "id": "66c20dac-b9d4-4b2c-b91d-e3b7f972db34",
+        "parent": "c896ba88-a854-4239-9d9b-5dd61873fcb1",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "FileContentTest/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "rootNode": "c896ba88-a854-4239-9d9b-5dd61873fcb1",
+    "openFiles": [
+      "66c20dac-b9d4-4b2c-b91d-e3b7f972db34"
+    ],
+    "currentFileId": "66c20dac-b9d4-4b2c-b91d-e3b7f972db34",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "FileContentTest",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1576564267537
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "FileContentTest",
+      "url": "https://github.com/zgma-test/FileContentTest"
+    }
+  }
+}
